@@ -38,7 +38,7 @@
 		9BCDD6B72147FF0F00DF2AF1 = {
 			isa = PBXGroup;
 			children = (
-				9BCDD6C22147FF0F00DF2AF1 /* test */,
+				9BCDD6C22147FF0F00DF2AF1 /* PagingDemo */,
 				9BCDD6C12147FF0F00DF2AF1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,7 +51,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9BCDD6C22147FF0F00DF2AF1 /* test */ = {
+		9BCDD6C22147FF0F00DF2AF1 /* PagingDemo */ = {
 			isa = PBXGroup;
 			children = (
 				9BCDD6C32147FF0F00DF2AF1 /* AppDelegate.swift */,
@@ -61,7 +61,7 @@
 				9BCDD6CC2147FF1200DF2AF1 /* LaunchScreen.storyboard */,
 				9BCDD6CF2147FF1200DF2AF1 /* Info.plist */,
 			);
-			path = test;
+			path = PagingDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,7 +281,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = test/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PagingDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = be.underside.test;
@@ -296,7 +296,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = test/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PagingDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = be.underside.test;
