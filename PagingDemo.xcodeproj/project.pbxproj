@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9BCDD6C02147FF0F00DF2AF1 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BCDD6C02147FF0F00DF2AF1 /* PagingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BCDD6C32147FF0F00DF2AF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BCDD6C52147FF0F00DF2AF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9BCDD6C82147FF0F00DF2AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		9BCDD6C12147FF0F00DF2AF1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9BCDD6C02147FF0F00DF2AF1 /* test.app */,
+				9BCDD6C02147FF0F00DF2AF1 /* PagingDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9BCDD6BF2147FF0F00DF2AF1 /* test */ = {
+		9BCDD6BF2147FF0F00DF2AF1 /* PagingDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9BCDD6D22147FF1200DF2AF1 /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = 9BCDD6D22147FF1200DF2AF1 /* Build configuration list for PBXNativeTarget "PagingDemo" */;
 			buildPhases = (
 				9BCDD6BC2147FF0F00DF2AF1 /* Sources */,
 				9BCDD6BD2147FF0F00DF2AF1 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = test;
+			name = PagingDemo;
 			productName = test;
-			productReference = 9BCDD6C02147FF0F00DF2AF1 /* test.app */;
+			productReference = 9BCDD6C02147FF0F00DF2AF1 /* PagingDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9BCDD6BB2147FF0F00DF2AF1 /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = 9BCDD6BB2147FF0F00DF2AF1 /* Build configuration list for PBXProject "PagingDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9BCDD6BF2147FF0F00DF2AF1 /* test */,
+				9BCDD6BF2147FF0F00DF2AF1 /* PagingDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -313,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9BCDD6BB2147FF0F00DF2AF1 /* Build configuration list for PBXProject "test" */ = {
+		9BCDD6BB2147FF0F00DF2AF1 /* Build configuration list for PBXProject "PagingDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9BCDD6D02147FF1200DF2AF1 /* Debug */,
@@ -322,7 +322,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9BCDD6D22147FF1200DF2AF1 /* Build configuration list for PBXNativeTarget "test" */ = {
+		9BCDD6D22147FF1200DF2AF1 /* Build configuration list for PBXNativeTarget "PagingDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9BCDD6D32147FF1200DF2AF1 /* Debug */,
